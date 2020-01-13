@@ -1,0 +1,13 @@
+server:
+  port: 9001
+
+#服务器实例名称
+spring:
+  application:
+    name: smp-student-manage
+
+#注册中心配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
